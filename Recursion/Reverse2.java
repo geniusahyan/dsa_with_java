@@ -1,5 +1,7 @@
 package Recursion;
 
+import java.util.Arrays;
+
 public class Reverse2 {
     public static void main(String[] args) {
         System.out.println(rev2(1234));
