@@ -23,6 +23,7 @@ public class Permutations {
             permutations(f + ch + s, up.substring(1));
         }
     }
+    /*
     static int permutationsCount(String p, String up){
         if(up.isEmpty()){
             System.out.println(p);
@@ -38,6 +39,7 @@ public class Permutations {
         }
         return;
     }
+    */
 
 
 
