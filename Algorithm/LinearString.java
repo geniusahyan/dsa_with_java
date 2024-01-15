@@ -5,6 +5,9 @@ public class LinearString {
         String name = "Ahyan";
         char target = 'y';
         System.out.println(search(name, target));
+        for (char string : name.toCharArray()) {
+            System.out.println(string);
+        }
     }
 
     static boolean search(String str, char target){
