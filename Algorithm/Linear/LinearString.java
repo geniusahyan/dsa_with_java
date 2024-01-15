@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.Linear;
 
 public class LinearString {
     public static void main(String[] args) {
