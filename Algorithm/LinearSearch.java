@@ -9,9 +9,10 @@ public class LinearSearch {
         System.out.println(linearSearch(num, target));
     }
 
-    static int linearSearch(int[] arr, int target){
+    // static int linearSearch(int[] arr, int target){
+    static boolean linearSearch(int[] arr, int target){
         if (arr.length == 0) {
-            return -1;
+            return false;
         }
         /*
         for (int i = 0; i < arr.length; i++) {
@@ -20,13 +21,19 @@ public class LinearSearch {
                 return i;
             }
         }
-        */
         for (int element : arr) {
             if (element == target) {
                 return element;
             }
             
         }
-        return -1;
+        */
+        for (int element : arr) {
+            if (element == target) {
+                return true;
+            }
+            
+        }
+        return false;
     }
 }
